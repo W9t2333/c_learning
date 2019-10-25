@@ -49,7 +49,7 @@ int main(int argc, char **argv) {
 		}
 		printf("服务器：%s\n", recvMsg);
 		//发送消息
-		printf("请输入待发送的信息(按q!退出):");
+		printf("请输入待发送的信息(按q!退出,All the Edu or News do not have enough authority to talk with me!!!):");
 		scanf("%s", &sendMsg);
 		if (strcmp(sendMsg, "q!") == 0) {
 			printf("已经结束聊天");
